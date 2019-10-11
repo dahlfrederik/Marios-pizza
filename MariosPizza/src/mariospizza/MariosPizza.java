@@ -12,6 +12,6 @@ public class MariosPizza {
         System.out.println("Detter er test nummer 2");
         System.out.println("asdasd");
     }
+ 
   
-    
 }
