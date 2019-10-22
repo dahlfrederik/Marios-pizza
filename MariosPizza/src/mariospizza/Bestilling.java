@@ -6,6 +6,6 @@ package mariospizza;
  *
  * @author FrederikDahl
  */
-public class Statistik {
-    
+public class Bestilling {
+
 }
