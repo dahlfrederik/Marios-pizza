@@ -1,1 +1,5 @@
-test1 Margarita 452 Hawaii m dres 523 Pep med d 65
+test1 Margarita 45
+2 Hawaii m dres 52
+3 Pep med d 65
+
+ Samlet pris: 162.0

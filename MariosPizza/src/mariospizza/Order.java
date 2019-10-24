@@ -16,11 +16,6 @@ public class Order {
     private Kunde kunde; 
     private MenuKort menukort; 
 
-    
-    public double getSamletPris(){
-        return -1; 
-    }
-    
     public String getKundeNavn(){
         return kunde.getNavn(); 
     }
@@ -35,20 +30,18 @@ public class Order {
         try { 
             File pizzaliste = new File("PizzaListe.txt");
             bw = new BufferedWriter(new FileWriter(pizzaliste)); 
-            bw.write("test");
             bw.write(menukort.toString()); 
             
             
         } catch (IOException ex) {
-                System.out.println("fuck");
+                System.out.println("FIL IKKE FUNDET");
         } finally {
             try {
                 bw.close();
             } catch (IOException ex) {
-                System.out.println("fuck");
+                System.out.println("BUFFEREDWRITER IKKE LUKKET");
             }
         }
- 
     }
     
     @Override

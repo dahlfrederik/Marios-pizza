@@ -9,4 +9,8 @@ package mariospizza;
 public class Bestilling {
     private Order order; 
     //indeholde odrer 
+    
+    public Bestilling(Order order){
+        
+    }
 }

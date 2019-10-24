@@ -20,6 +20,14 @@ public class MenuKort {
         menukort.remove(pizza);
     }
     
+    public double getTotalPris(){
+        double totalPris = 0; 
+        for (Pizza pizza : menukort) {
+            totalPris += pizza.getPizzaPris(); 
+        }
+        return totalPris; 
+    }
+    
     public ArrayList getMenuKort(){
         return menukort; 
     }
@@ -29,8 +37,11 @@ public class MenuKort {
         String totalMenu = "";
 
         for (Pizza total : menukort) {
-            totalMenu += total.getPizzaNummer() + " " + total.getPizzaNavn() + " " + total.getPizzaPris();
+            totalMenu += total.getPizzaNummer() + " " + total.getPizzaNavn() + " " + total.getPizzaPris() +  "\n";
+            
         }
+        
+        totalMenu += "\n Samlet pris: " + getTotalPris(); 
         return totalMenu;
     }
     
