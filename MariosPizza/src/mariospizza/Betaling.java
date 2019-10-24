@@ -9,10 +9,10 @@ package mariospizza;
 public class Betaling {
     private Order order; 
     
-    //TODO 
-    public double betal(){
-        return order.getTotalSum(); 
+    public double getSamletPris(){
+        return order.getSamletPris(); 
     }
+    
     
     
 }
