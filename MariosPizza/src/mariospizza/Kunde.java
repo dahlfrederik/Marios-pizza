@@ -30,6 +30,11 @@ public class Kunde {
     public void setNummer(int nummer) {
         this.nummer = nummer;
     }
+
+    @Override
+    public String toString() {
+        return "Kunde: \n navn:" + navn + ", nummer: " + nummer;
+    }
     
     
 
