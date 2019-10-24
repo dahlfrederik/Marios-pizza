@@ -1,0 +1,118 @@
+Kundens navn: Josef
+Kundens nummer: 41421421
+ Pizza: Margarita, pizzaens pris45, Afhentes om: 10 min
+ Pizza: Hawaii m dres, pizzaens pris52, Afhentes om: 30 min
+ Pizza: Pep med d, pizzaens pris65, Afhentes om: 40 min
+
+ Samlet pris: 162.0 kr
+
+BESTILLINGSLISTE
+*****************
+Kundens navn: Josef
+Kundens nummer: 41421421
+ Pizza: Margarita, pizzaens pris45, Afhentes om: 10 min
+ Pizza: Hawaii m dres, pizzaens pris52, Afhentes om: 30 min
+ Pizza: Pep med d, pizzaens pris65, Afhentes om: 40 min
+
+ Samlet pris: 162.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Josef
+Kundens nummer: 41421421
+ Pizza: Margarita, pizzaens pris45, Afhentes om: 10 min
+ Pizza: Hawaii m dres, pizzaens pris52, Afhentes om: 30 min
+ Pizza: Pep med d, pizzaens pris65, Afhentes om: 40 min
+
+ Samlet pris: 162.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+ Pizza: Kebab, pizzaens pris45, Afhentes om: 10 min
+ Pizza: Shar m dres, pizzaens pris52, Afhentes om: 30 min
+ Pizza: bla med d, pizzaens pris65, Afhentes om: 40 min
+
+ Samlet pris: 162.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+ Pizza: Kebab, pizzaens pris 45, Afhentes om: 10 min
+ Pizza: Shar m dres, pizzaens pris 52, Afhentes om: 30 min
+ Pizza: bla med d, pizzaens pris 65, Afhentes om: 40 min
+
+ Samlet pris: 162.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+ Pizza: Kebab, pizzaens pris 45, Afhentes om: 10 min
+ Pizza: Shar m dres, pizzaens pris 52, Afhentes om: 30 min
+ Pizza: bla med d, pizzaens pris 65, Afhentes om: 40 min
+
+ Samlet pris: 162.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+ Pizza: Kebab, pizzaens pris 45, Afhentes om: 10 min
+ Pizza: Shar m dres, pizzaens pris 52, Afhentes om: 30 min
+ Pizza: bla med d, pizzaens pris 65, Afhentes om: 40 min
+
+ Samlet pris: 162.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+ Pizza: Kebab, pizzaens pris 45, Afhentes om: 10 min
+ Pizza: Shar m dres, pizzaens pris 52, Afhentes om: 30 min
+ Pizza: bla med d, pizzaens pris 65, Afhentes om: 40 min
+
+ Samlet pris: 162.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+ Pizza: Kebab, pizzaens pris 45, Afhentes om: 10 min
+ Pizza: Shar m dres, pizzaens pris 52, Afhentes om: 30 min
+ Pizza: bla med d, pizzaens pris 65, Afhentes om: 40 min
+
+ Samlet pris: 162.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+ Pizza: Kebab, pizzaens pris 45, Afhentes om: 10 min
+ Pizza: Shar m dres, pizzaens pris 52, Afhentes om: 30 min
+ Pizza: bla med d, pizzaens pris 65, Afhentes om: 40 min
+
+ Samlet pris: 162.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+ Pizza: Kebab, pizzaens pris 45, Afhentes om: 10 min
+ Pizza: Shar m dres, pizzaens pris 52, Afhentes om: 30 min
+ Pizza: bla med d, pizzaens pris 65, Afhentes om: 40 min
+
+ Samlet pris: 162.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+ Pizza: Kebab, pizzaens pris 45, Afhentes om: 10 min
+ Pizza: Shar m dres, pizzaens pris 52, Afhentes om: 30 min
+ Pizza: bla med d, pizzaens pris 65, Afhentes om: 40 min
+
+ Samlet pris: 162.0 kr
+

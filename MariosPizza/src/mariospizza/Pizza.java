@@ -48,6 +48,6 @@ public class Pizza {
     
     @Override
     public String toString() {
-        return pizzaNummer + " " + pizzaNavn + " " + pizzaPris + " " + tidTilAfhentning;
+        return "Nr: "+ pizzaNummer + " Pizza:" + pizzaNavn + ", Pris: " + pizzaPris; 
     }
 }

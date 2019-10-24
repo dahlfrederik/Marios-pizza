@@ -1,12 +1,16 @@
 package mariospizza;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 
 public class MenuKort {
 
-    //evt indeholde "pizzaer"
-    private ArrayList<Pizza> menukort = new ArrayList<Pizza>();; 
+    // indeholde "pizzaer"
+    private ArrayList<Pizza> menukort = new ArrayList<Pizza>();
     
     public MenuKort(){
         
@@ -20,28 +24,40 @@ public class MenuKort {
         menukort.remove(pizza);
     }
     
-    public double getTotalPris(){
-        double totalPris = 0; 
-        for (Pizza pizza : menukort) {
-            totalPris += pizza.getPizzaPris(); 
-        }
-        return totalPris; 
-    }
-    
     public ArrayList getMenuKort(){
         return menukort; 
+    }
+    
+    public void lavMenuKort(){
+        BufferedWriter bw = null;
+        try { 
+            File menukortfil = new File("Menukort.txt");
+            bw = new BufferedWriter(new FileWriter(menukortfil)); 
+            bw.write(menukort.toString()); 
+            bw.newLine(); 
+            
+        } catch (IOException ex) {
+                System.out.println("FIL IKKE FUNDET");
+        } finally {
+            try {
+                bw.close();
+            } catch (IOException ex) {
+                System.out.println("BUFFEREDWRITER IKKE LUKKET");
+            }
+        }
     }
 
     @Override
     public String toString() {
         String totalMenu = "";
+        totalMenu += "MENUKORT" + "\n"; 
+        totalMenu += "*****************" + "\n"; 
 
         for (Pizza total : menukort) {
             totalMenu += total.getPizzaNummer() + " " + total.getPizzaNavn() + " " + total.getPizzaPris() +  "\n";
             
         }
         
-        totalMenu += "\n Samlet pris: " + getTotalPris(); 
         return totalMenu;
     }
     

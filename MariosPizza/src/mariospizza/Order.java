@@ -6,32 +6,45 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 
 
 /**
- *
+ * TIL MARIO
  * @author Frederik, Hallur, Josef og Thor
  */
 public class Order {
     private Kunde kunde; 
-    private MenuKort menukort; 
-
-    public String getKundeNavn(){
-        return kunde.getNavn(); 
+    private ArrayList<Pizza> bestillingsliste = new ArrayList<Pizza>();
+    
+    public Order(Kunde kunde){
+        this.kunde = kunde; 
+        
     }
     
-    //TODO toString for menukort 
-    public String getPizza(){
-        return menukort.toString(); 
+    public double getTotalPris(){
+        double totalPris = 0; 
+        for (Pizza pizza : bestillingsliste) {
+            totalPris += pizza.getPizzaPris(); 
+        }
+        return totalPris; 
     }
     
-    public void skrivOrdrer(MenuKort menukort){
+    public void addPizzaTilOrdrer(Pizza pizza) {
+        bestillingsliste.add(pizza);
+    } 
+    
+    public void removePizzaTilOrdrer(Pizza pizza) {
+        bestillingsliste.remove(pizza);
+    }
+    
+    public void skrivOrdrer(){
         BufferedWriter bw = null;
         try { 
-            File pizzaliste = new File("PizzaListe.txt");
-            bw = new BufferedWriter(new FileWriter(pizzaliste)); 
-            bw.write(menukort.toString()); 
-            
+            File pizzaliste = new File("Bestillingsliste.txt");
+            bw = new BufferedWriter(new FileWriter(pizzaliste, true)); 
+            bw.write(toString()); 
+            bw.newLine(); 
             
         } catch (IOException ex) {
                 System.out.println("FIL IKKE FUNDET");
@@ -46,6 +59,18 @@ public class Order {
     
     @Override
     public String toString(){
-        return kunde.toString() + menukort.toString(); 
+        String totalMenu = "";
+        totalMenu += "KVITTERING" + "\n"; 
+        totalMenu += "*****************" + "\n"; 
+        totalMenu += "Kundens navn: " + kunde.getNavn() + "\n";
+        totalMenu += "Kundens nummer: " + kunde.getNummer() + "\n"; 
+        
+        
+        for (Pizza total : bestillingsliste) {
+            totalMenu += " Pizza: " + total.getPizzaNavn() + ", pizzaens pris " + total.getPizzaPris() +  ", Afhentes om: " + total.getTidTilAfhentning() + " min" + "\n";  
+        }
+        
+        totalMenu += "\n Samlet pris: " + getTotalPris() + " kr" + "\n"; 
+        return totalMenu;
     }
 }

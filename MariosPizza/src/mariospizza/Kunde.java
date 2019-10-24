@@ -33,7 +33,7 @@ public class Kunde {
 
     @Override
     public String toString() {
-        return "Kunde: \n  Navn:" + navn + ", Nummer: " + nummer;
+        return "Kunde: \n  Navn:" + navn + ", Tlf nummer: " + nummer;
     }
     
 }
