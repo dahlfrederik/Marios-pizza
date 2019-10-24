@@ -2,13 +2,20 @@
 
 package mariospizza;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+
 /**
  *
- * @author FrederikDahl
+ * @author Frederik, Hallur, Josef og Thor
  */
 public class Order {
     private Kunde kunde; 
     private MenuKort menukort; 
+
     
     public double getSamletPris(){
         return -1; 
@@ -23,9 +30,25 @@ public class Order {
         return menukort.toString(); 
     }
     
-    //TODO: Skal lave txt fil via filewriter og bufferedwriter som bruger toString. 
-    public void printOrdrer(){
-        
+    public void skrivOrdrer(MenuKort menukort){
+        BufferedWriter bw = null;
+        try { 
+            File pizzaliste = new File("PizzaListe.txt");
+            bw = new BufferedWriter(new FileWriter(pizzaliste)); 
+            bw.write("test");
+            bw.write(menukort.toString()); 
+            
+            
+        } catch (IOException ex) {
+                System.out.println("fuck");
+        } finally {
+            try {
+                bw.close();
+            } catch (IOException ex) {
+                System.out.println("fuck");
+            }
+        }
+ 
     }
     
     @Override
