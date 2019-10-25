@@ -38,6 +38,10 @@ public class Order {
         bestillingsliste.remove(pizza);
     }
     
+    public ArrayList<Pizza> getOrderListe(){
+        return bestillingsliste; 
+    }
+    
     public void skrivOrdrer(){
         BufferedWriter bw = null;
         try { 

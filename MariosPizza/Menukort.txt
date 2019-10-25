@@ -1,1 +1,1 @@
-[Nr: 1 Pizza:Kebab, Pris: 45, Nr: 2 Pizza:Shar m dres, Pris: 52, Nr: 3 Pizza:bla med d, Pris: 65]
+[Nr: 1, pizza med Kebab, pris: 45, Nr: 1, pizza med Kebab, pris: 45, Nr: 1, pizza med Hawai, pris: 45, Nr: 1, pizza med Kebab, pris: 45]
