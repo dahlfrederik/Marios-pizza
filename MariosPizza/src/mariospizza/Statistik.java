@@ -14,7 +14,6 @@ import java.util.Scanner;
 public class Statistik {
     //indeholde liste af ordrer og hvad der er mest populært 
     private Order order; 
-    private int totalSalg, tæller;
     
     public Statistik(Order order){
         this.order = order; 
@@ -38,9 +37,11 @@ public class Statistik {
            
         }  
         System.out.println("Den hyppigste pizza er: " + hyppigst + ", den er købt: " + hyppigtAntal + " gange");
-        return hyppigst; 
-        
-        
+        return hyppigst;    
+    }
+    
+    public double findTotalSalg(){
+        return order.getTotalPris();     
     }
     
     
