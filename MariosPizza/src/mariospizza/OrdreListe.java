@@ -10,9 +10,7 @@ import java.util.ArrayList;
  */
 public class OrdreListe {
     private ArrayList<Order> ordreliste = new ArrayList<Order>(); 
-    private Order order; 
-    
-    
+
     public OrdreListe(){
         
     }
@@ -26,6 +24,10 @@ public class OrdreListe {
         ordreliste.remove(order);
     } 
     
+    public ArrayList<Order> getOrderListe(){
+        return ordreliste; 
+    }
+      
       //Denne metode er lavet med udgangspunkt i selection sort, som så er omformatteret til at gælde arraylister i stedet for Arrays. 
     public void sorterListeEfterAfhentning() {
         int n = ordreliste.size(); 
@@ -38,12 +40,10 @@ public class OrdreListe {
                     Order hentesFørst = ordreliste.get(i);
                     ordreliste.set(mindste,hentesFørst);
                     ordreliste.set(i, temp); 
-                    
-                    
-                           
-        }
-         
+               
+        }     
     }
+    
     @Override
     public String toString(){
         String ordreListe = "";

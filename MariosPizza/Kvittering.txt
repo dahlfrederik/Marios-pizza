@@ -2,10 +2,11 @@ KVITTERING
 *****************
 Kundens navn: Hallur
 Kundens nummer: 41421421
- Pizza: Kebab, pizzaens pris 45, Afhentes om: 10 min
- Pizza: Kebab, pizzaens pris 42, Afhentes om: 65 min
- Pizza: Hawai, pizzaens pris 45, Afhentes om: 10 min
- Pizza: Kebab, pizzaens pris 55, Afhentes om: 12 min
+Tid til afhenting: 10 min
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Hawai, pizzaens pris 42
+ Pizza: Kebab, pizzaens pris 55
 
  Samlet pris: 187.0 kr
  Betalingsform: kontant
