@@ -19,6 +19,7 @@ public class Order {
     
     public Order(Kunde kunde){
         this.kunde = kunde; 
+        sorterListeEfterAfhentning(); 
         
     }
     
@@ -60,6 +61,22 @@ public class Order {
             }
         }
     }
+
+    //Denne metode er lavet med udgangspunkt i selection sort, som så er omformatteret til at gælde arraylister i stedet for Arrays. 
+    public void sorterListeEfterAfhentning() {
+        int n = bestillingsliste.size(); 
+        for(int i = 0; i < n-1; i++){
+            int mindste = i; 
+            for (int j = i +1; j < n; j++)
+                if(bestillingsliste.get(j).getTidTilAfhentning() < bestillingsliste.get(mindste).getTidTilAfhentning())
+                    mindste = j; 
+                    Pizza temp = bestillingsliste.get(mindste);
+                    Pizza hentesFørst = bestillingsliste.get(i);
+                    bestillingsliste.set(mindste,hentesFørst);
+                    bestillingsliste.set(i, temp); 
+        }
+         
+    }
     
     @Override
     public String toString(){
@@ -77,4 +94,6 @@ public class Order {
         totalMenu += "\n Samlet pris: " + getTotalPris() + " kr" + "\n"; 
         return totalMenu;
     }
+
+   
 }

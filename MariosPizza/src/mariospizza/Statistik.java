@@ -41,7 +41,7 @@ public class Statistik {
     }
     
     public double findTotalSalg(){
-        return order.getTotalPris();     
+        return order.getTotalPris();      
     }
     
     
