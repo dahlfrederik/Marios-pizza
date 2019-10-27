@@ -5,13 +5,13 @@ public class Pizza {
     private int pizzaNummer; 
     private String pizzaNavn; 
     private int pizzaPris; 
-    private int tidTilAfhentning; 
+ 
 
-    public Pizza(int pizzaNummer, String pizzaNavn, int pizzaPris, int tidTilAfhentning) {
+    public Pizza(int pizzaNummer, String pizzaNavn, int pizzaPris) {
         this.pizzaNummer = pizzaNummer;
         this.pizzaNavn = pizzaNavn;
         this.pizzaPris = pizzaPris;
-        this.tidTilAfhentning = tidTilAfhentning; 
+        
     }
     
     public int getPizzaNummer() {
@@ -36,14 +36,6 @@ public class Pizza {
 
     public void setPizzaPris(int pizzaPris) {
         this.pizzaPris = pizzaPris;
-    }
-    
-    public int getTidTilAfhentning() {
-        return tidTilAfhentning;
-    }
-
-    public void setTidTilAfhentning(int tidTilAfhentning) {
-        this.tidTilAfhentning = tidTilAfhentning;
     }
     
     @Override

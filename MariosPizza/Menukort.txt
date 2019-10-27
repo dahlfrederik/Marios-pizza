@@ -1,1 +1,1 @@
-[Nr: 1, pizza med Kebab, pris: 45, Nr: 1, pizza med Kebab, pris: 42, Nr: 1, pizza med Hawai, pris: 45, Nr: 1, pizza med Kebab, pris: 55]
+[Nr: 1, pizza med Kebab, pris: 45, Nr: 1, pizza med Kebab, pris: 45, Nr: 1, pizza med Hawai, pris: 42, Nr: 1, pizza med Kebab, pris: 55]

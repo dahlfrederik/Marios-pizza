@@ -16,11 +16,12 @@ import java.util.ArrayList;
 public class Order {
     private Kunde kunde; 
     private ArrayList<Pizza> bestillingsliste = new ArrayList<Pizza>();
+    private int tidTilAfhentning; 
     
-    public Order(Kunde kunde){
+    public Order(Kunde kunde, int tidTilAfhentning){
         this.kunde = kunde; 
-        sorterListeEfterAfhentning(); 
-        
+        this.tidTilAfhentning = tidTilAfhentning; 
+            
     }
     
     public double getTotalPris(){
@@ -29,6 +30,10 @@ public class Order {
             totalPris += pizza.getPizzaPris(); 
         }
         return totalPris; 
+    }
+    
+    public int getTidTilAfhentning(){
+        return tidTilAfhentning; 
     }
     
     public void addPizzaTilOrdrer(Pizza pizza) {
@@ -61,23 +66,7 @@ public class Order {
             }
         }
     }
-
-    //Denne metode er lavet med udgangspunkt i selection sort, som så er omformatteret til at gælde arraylister i stedet for Arrays. 
-    public void sorterListeEfterAfhentning() {
-        int n = bestillingsliste.size(); 
-        for(int i = 0; i < n-1; i++){
-            int mindste = i; 
-            for (int j = i +1; j < n; j++)
-                if(bestillingsliste.get(j).getTidTilAfhentning() < bestillingsliste.get(mindste).getTidTilAfhentning())
-                    mindste = j; 
-                    Pizza temp = bestillingsliste.get(mindste);
-                    Pizza hentesFørst = bestillingsliste.get(i);
-                    bestillingsliste.set(mindste,hentesFørst);
-                    bestillingsliste.set(i, temp); 
-        }
-         
-    }
-    
+  
     @Override
     public String toString(){
         String totalMenu = "";
@@ -85,10 +74,11 @@ public class Order {
         totalMenu += "*****************" + "\n"; 
         totalMenu += "Kundens navn: " + kunde.getNavn() + "\n";
         totalMenu += "Kundens nummer: " + kunde.getNummer() + "\n"; 
+        totalMenu += "Tid til afhenting: " + getTidTilAfhentning() + " min" + "\n"; 
         
         
         for (Pizza total : bestillingsliste) {
-            totalMenu += " Pizza: " + total.getPizzaNavn() + ", pizzaens pris " + total.getPizzaPris() +  ", Afhentes om: " + total.getTidTilAfhentning() + " min" + "\n";  
+            totalMenu += " Pizza: " + total.getPizzaNavn() + ", pizzaens pris " + total.getPizzaPris() +  "\n";  
         }
         
         totalMenu += "\n Samlet pris: " + getTotalPris() + " kr" + "\n"; 
