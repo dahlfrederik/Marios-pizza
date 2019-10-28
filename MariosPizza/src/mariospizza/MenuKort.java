@@ -33,7 +33,8 @@ public class MenuKort {
         try { 
             File menukortfil = new File("Menukort.txt");
             bw = new BufferedWriter(new FileWriter(menukortfil)); 
-            bw.write(menukort.toString()); 
+            bw.write(toString()); 
+           
             bw.newLine(); 
             
         } catch (IOException ex) {
@@ -54,7 +55,8 @@ public class MenuKort {
         totalMenu += "*****************" + "\n"; 
 
         for (Pizza total : menukort) {
-            totalMenu += total.getPizzaNummer() + " " + total.getPizzaNavn() + " " + total.getPizzaPris() +  "\n";
+            totalMenu += "\n"; 
+            totalMenu += total.toString() + "\n";
             
         }
         

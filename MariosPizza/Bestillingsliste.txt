@@ -1060,3 +1060,333 @@ Tid til afhenting: 10 min
 
  Samlet pris: 1047.0 kr
 
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+Tid til afhenting: 10 min
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Carbona, pizzaens pris 42
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+
+ Samlet pris: 1047.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+Tid til afhenting: 10 min
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Carbona, pizzaens pris 42
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+
+ Samlet pris: 1047.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+Tid til afhenting: 10 min
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Carbona, pizzaens pris 42
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+
+ Samlet pris: 1047.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+Tid til afhenting: 10 min
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Carbona, pizzaens pris 42
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+
+ Samlet pris: 1047.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+Tid til afhenting: 10 min
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Carbona, pizzaens pris 42
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+
+ Samlet pris: 1047.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+Tid til afhenting: 10 min
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Carbona, pizzaens pris 42
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+
+ Samlet pris: 1047.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+Tid til afhenting: 10 min
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Carbona, pizzaens pris 42
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+
+ Samlet pris: 1047.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+Tid til afhenting: 10 min
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Carbona, pizzaens pris 42
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+
+ Samlet pris: 1047.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+Tid til afhenting: 10 min
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Carbona, pizzaens pris 42
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+
+ Samlet pris: 1047.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+Tid til afhenting: 10 min
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Carbona, pizzaens pris 42
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+
+ Samlet pris: 1047.0 kr
+
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+Tid til afhenting: 10 min
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Carbona, pizzaens pris 42
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Silvia, pizzaens pris 55
+
+ Samlet pris: 1047.0 kr
+

@@ -44,7 +44,7 @@ public class OrdreListe {
             ordreliste.set(i, temp);
         }
     }
-
+    //Test for hvad hvis der er en af hver
     public Pizza findMestPopulærIAlleOrdre() {
         ArrayList<Pizza> mestPopulærePizzaer = new ArrayList<Pizza>();
         Pizza mestPopulær = null, mestPopulærPizza = null;

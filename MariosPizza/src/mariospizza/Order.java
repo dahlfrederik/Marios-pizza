@@ -67,17 +67,17 @@ public class Order {
     
     public Pizza findMestPopulær(){
         Pizza mestPopulærPizza = null;  
-        int maxCount = 0, count = 0;  
+        int højesteTæller = 0, tæller = 0;  
         int n = orderliste.size(); 
         for (int i = 0; i < n-1; i++) {
-            count = 1; 
+            tæller = 1; 
             for(int j = i++; j < n; j++){
             if(orderliste.get(i).getPizzaNavn().equals(orderliste.get(j).getPizzaNavn())){
-                count++; 
+                tæller++; 
             }
           }
-            if(count > maxCount){
-                maxCount = count; 
+            if(tæller > højesteTæller){
+                højesteTæller = tæller; 
                 mestPopulærPizza = orderliste.get(i); 
             }
         }

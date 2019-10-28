@@ -1,1 +1,48 @@
-[Nr: 1, pizza med Kebab, pris: 45, Nr: 2, pizza med Pep med d, pris: 45, Nr: 3, pizza med Hawai, pris: 42, Nr: 4, pizza med Lugi speciale, pris: 55]
+MENUKORT
+*****************
+
+Nr: 1, pizza med Kebab, pris: 45 kr
+
+
+Nr: 2, pizza med Pepperoni, pris: 45 kr
+
+
+Nr: 3, pizza med Carbona, pris: 42 kr
+
+
+Nr: 4, pizza med Silvia, pris: 55 kr
+
+
+Nr: 5, pizza med Toronfo, pris: 60 kr
+
+
+Nr: 6, pizza med Amerikaner, pris: 69 kr
+
+
+Nr: 7, pizza med Bertil, pris: 55 kr
+
+
+Nr: 8, pizza med Victoria, pris: 50 kr
+
+
+Nr: 9, pizza med Mafia, pris: 120 kr
+
+
+Nr: 10, pizza med Steve Jobs, pris: 125 kr
+
+
+Nr: 11, pizza med Hval, pris: 99 kr
+
+
+Nr: 12, pizza med Chili, pris: 45 kr
+
+
+Nr: 13, pizza med Mario, pris: 75 kr
+
+
+Nr: 14, pizza med Gollum, pris: 25 kr
+
+
+Nr: 15, pizza med Potter, pris: 85 kr
+
+
