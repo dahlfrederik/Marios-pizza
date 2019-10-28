@@ -1,0 +1,11 @@
+KVITTERING
+*****************
+Kundens navn: Hallur
+Kundens nummer: 41421421
+Tid til afhenting: 10 min
+ Pizza: Kebab, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Carbona, pizzaens pris 42
+
+ Samlet pris: 132.0 kr
+

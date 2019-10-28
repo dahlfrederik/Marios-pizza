@@ -63,6 +63,7 @@ public class MariosPizza {
         order1.addPizzaTilOrdrer(pizza4);
         order1.addPizzaTilOrdrer(pizza2);
         order1.addPizzaTilOrdrer(pizza4);
+            
         order1.skrivOrdrer();
 
         Kunde kunde2 = new Kunde("Frederik", 30366319);
@@ -94,9 +95,12 @@ public class MariosPizza {
         System.out.println(mariosOverblik);
 
         Betaling betaling = new Betaling(order1, false);
+        
+        Pizza pop = order1.findMestPopulær();
+        System.out.println(pop);
 
-        Pizza populær = mariosOverblik.findMestPopulærIAlleOrdre();
-        System.out.println(populær);
+//        Pizza populær = mariosOverblik.findMestPopulærIAlleOrdre();
+//        System.out.println(populær);
     }
 
 }

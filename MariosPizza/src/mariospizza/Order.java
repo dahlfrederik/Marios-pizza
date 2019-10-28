@@ -83,10 +83,6 @@ public class Order {
         }
         return mestPopulærPizza; 
     }
-    
-    public double findTotalSalg(){
-        return getTotalPris();      
-    }
 
     @Override
     public String toString() {

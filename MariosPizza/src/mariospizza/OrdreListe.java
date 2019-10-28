@@ -14,26 +14,27 @@ public class OrdreListe {
 
     }
 
-    //Kan tilføjes til ordrelisten
+    //Kan tilføje ordrer til ordrelisten
     public void tilføjOrdrer(Order order) {
         ordreliste.add(order);
     }
 
-    //Kan fjernes når ordren er leveret 
+    //Kan fjerne ordre når ordren er leveret 
     public void fjernOrdrer(Order order) {
         ordreliste.remove(order);
     }
-
+    //returnere ordrelisten 
     public ArrayList<Order> getOrderListe() {
         return ordreliste;
     }
 
-    //Denne metode er lavet med udgangspunkt i selection sort, som så er omformatteret til at gælde arraylister i stedet for Arrays. 
+    //Sorter ordrer i listen efter afhentningstid med det kortetste som første. 
+    //Listen bliver sortet ved hjælp af selection sort
     public void sorterListeEfterAfhentning() {
         int n = ordreliste.size();
-        for (int i = 0; i < n - 1; i++) {
+        for (int i = 0; i < n-1; i++) {
             int mindste = i;
-            for (int j = i + 1; j < n; j++) {
+            for (int j = i ++; j < n; j++) {
                 if (ordreliste.get(j).getTidTilAfhentning() < ordreliste.get(mindste).getTidTilAfhentning()) {
                     mindste = j;
                 }
@@ -44,6 +45,7 @@ public class OrdreListe {
             ordreliste.set(i, temp);
         }
     }
+    
     //Test for hvad hvis der er en af hver
     public Pizza findMestPopulærIAlleOrdre() {
         ArrayList<Pizza> mestPopulærePizzaer = new ArrayList<Pizza>();
@@ -53,9 +55,9 @@ public class OrdreListe {
             mestPopulær = order.findMestPopulær();
             mestPopulærePizzaer.add(mestPopulær);
             int n = mestPopulærePizzaer.size();
-            for (int i = 0; i < n - 1; i++) {
+            for (int i = 0; i < n-1; i++) {
                 count = 1;
-                for (int j = 0; i < n - 1; i++) {
+                for (int j = i++; i < n; i++) {
                     if (mestPopulærePizzaer.get(i).getPizzaNavn().equals(mestPopulærePizzaer.get(j).getPizzaNavn())) {
                         count++;
                     }
