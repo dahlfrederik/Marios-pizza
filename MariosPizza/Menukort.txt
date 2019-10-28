@@ -1,1 +1,1 @@
-[Nr: 1, pizza med Kebab, pris: 45, Nr: 1, pizza med Kebab, pris: 45, Nr: 1, pizza med Hawai, pris: 42, Nr: 1, pizza med Kebab, pris: 55]
+[Nr: 1, pizza med Kebab, pris: 45, Nr: 2, pizza med Pep med d, pris: 45, Nr: 3, pizza med Hawai, pris: 42, Nr: 4, pizza med Lugi speciale, pris: 55]

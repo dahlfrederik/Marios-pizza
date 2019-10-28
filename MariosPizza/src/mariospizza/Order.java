@@ -1,5 +1,3 @@
-
-
 package mariospizza;
 
 import java.io.BufferedWriter;
@@ -8,56 +6,56 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-
 /**
  * TIL MARIO
+ *
  * @author Frederik, Hallur, Josef og Thor
  */
 public class Order {
-    private Kunde kunde; 
-    private ArrayList<Pizza> bestillingsliste = new ArrayList<Pizza>();
-    private int tidTilAfhentning; 
-    
-    public Order(Kunde kunde, int tidTilAfhentning){
-        this.kunde = kunde; 
-        this.tidTilAfhentning = tidTilAfhentning; 
-            
+
+    private Kunde kunde;
+    private ArrayList<Pizza> orderliste = new ArrayList<Pizza>();
+    private int tidTilAfhentning;
+
+    public Order(Kunde kunde, int tidTilAfhentning) {
+        this.kunde = kunde;
+        this.tidTilAfhentning = tidTilAfhentning;
     }
-    
-    public double getTotalPris(){
-        double totalPris = 0; 
-        for (Pizza pizza : bestillingsliste) {
-            totalPris += pizza.getPizzaPris(); 
+
+    public double getTotalPris() {
+        double totalPris = 0;
+        for (Pizza pizza : orderliste) {
+            totalPris += pizza.getPizzaPris();
         }
-        return totalPris; 
+        return totalPris;
     }
-    
-    public int getTidTilAfhentning(){
-        return tidTilAfhentning; 
+
+    public int getTidTilAfhentning() {
+        return tidTilAfhentning;
     }
-    
+
     public void addPizzaTilOrdrer(Pizza pizza) {
-        bestillingsliste.add(pizza);
-    } 
-    
+        orderliste.add(pizza);
+    }
+
     public void removePizzaTilOrdrer(Pizza pizza) {
-        bestillingsliste.remove(pizza);
+        orderliste.remove(pizza);
     }
-    
-    public ArrayList<Pizza> getOrderListe(){
-        return bestillingsliste; 
+
+    public ArrayList<Pizza> getOrderListe() {
+        return orderliste;
     }
-    
-    public void skrivOrdrer(){
+
+    public void skrivOrdrer() {
         BufferedWriter bw = null;
-        try { 
+        try {
             File pizzaliste = new File("Bestillingsliste.txt");
-            bw = new BufferedWriter(new FileWriter(pizzaliste, true)); 
-            bw.write(toString()); 
-            bw.newLine(); 
-            
+            bw = new BufferedWriter(new FileWriter(pizzaliste, true));
+            bw.write(toString());
+            bw.newLine();
+
         } catch (IOException ex) {
-                System.out.println("FIL IKKE FUNDET");
+            System.out.println("FIL IKKE FUNDET");
         } finally {
             try {
                 bw.close();
@@ -66,24 +64,45 @@ public class Order {
             }
         }
     }
-  
-    @Override
-    public String toString(){
-        String totalMenu = "";
-        totalMenu += "KVITTERING" + "\n"; 
-        totalMenu += "*****************" + "\n"; 
-        totalMenu += "Kundens navn: " + kunde.getNavn() + "\n";
-        totalMenu += "Kundens nummer: " + kunde.getNummer() + "\n"; 
-        totalMenu += "Tid til afhenting: " + getTidTilAfhentning() + " min" + "\n"; 
-        
-        
-        for (Pizza total : bestillingsliste) {
-            totalMenu += " Pizza: " + total.getPizzaNavn() + ", pizzaens pris " + total.getPizzaPris() +  "\n";  
+    
+    public Pizza findMestPopulær(){
+        Pizza mestPopulærPizza = null;  
+        int maxCount = 0, count = 0;  
+        int n = orderliste.size(); 
+        for (int i = 0; i < n-1; i++) {
+            count = 1; 
+            for(int j = i++; j < n; j++){
+            if(orderliste.get(i).getPizzaNavn().equals(orderliste.get(j).getPizzaNavn())){
+                count++; 
+            }
+          }
+            if(count > maxCount){
+                maxCount = count; 
+                mestPopulærPizza = orderliste.get(i); 
+            }
         }
-        
-        totalMenu += "\n Samlet pris: " + getTotalPris() + " kr" + "\n"; 
+        return mestPopulærPizza; 
+    }
+    
+    public double findTotalSalg(){
+        return getTotalPris();      
+    }
+
+    @Override
+    public String toString() {
+        String totalMenu = "";
+        totalMenu += "KVITTERING" + "\n";
+        totalMenu += "*****************" + "\n";
+        totalMenu += "Kundens navn: " + kunde.getNavn() + "\n";
+        totalMenu += "Kundens nummer: " + kunde.getNummer() + "\n";
+        totalMenu += "Tid til afhenting: " + getTidTilAfhentning() + " min" + "\n";
+
+        for (Pizza total : orderliste) {
+            totalMenu += " Pizza: " + total.getPizzaNavn() + ", pizzaens pris " + total.getPizzaPris() + "\n";
+        }
+
+        totalMenu += "\n Samlet pris: " + getTotalPris() + " kr" + "\n";
         return totalMenu;
     }
 
-   
 }
