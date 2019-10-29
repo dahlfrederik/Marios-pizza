@@ -1,18 +1,14 @@
 KVITTERING
 *****************
-Kundens navn: Hallur
-Kundens nummer: 41421421
-Tid til afhenting: 10 min
+Kundens navn: Thor
+Kundens nummer: 21413319
+Tid til afhenting: 15 min
  Pizza: Kebab, pizzaens pris 45
- Pizza: Pep med d, pizzaens pris 45
- Pizza: Hawai, pizzaens pris 42
- Pizza: Kebab, pizzaens pris 45
- Pizza: Pep med d, pizzaens pris 45
- Pizza: Pep med d, pizzaens pris 45
- Pizza: Lugi speciale, pizzaens pris 55
- Pizza: Pep med d, pizzaens pris 45
- Pizza: Kebab, pizzaens pris 45
- Pizza: Pep med d, pizzaens pris 45
+ Pizza: Pepperoni, pizzaens pris 45
+ Pizza: Carbona, pizzaens pris 42
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Silvia, pizzaens pris 55
+ Pizza: Silvia, pizzaens pris 55
 
- Samlet pris: 457.0 kr
- Betalingsform: kontant
+ Samlet pris: 297.0 kr
+ Betalingsform: kort
