@@ -1,5 +1,8 @@
 package mariospizza;
 
+/**
+ * @author Josef, Thor, Hallur og Frederik 
+ */
 
 public class Pizza {
     private int pizzaNummer; 

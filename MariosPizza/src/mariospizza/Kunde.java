@@ -3,9 +3,9 @@
 package mariospizza;
 
 /**
- *
- * @author FrederikDahl
+ * @author Josef, Thor, Hallur og Frederik 
  */
+
 public class Kunde {
     private String navn; 
     private int nummer; 

@@ -3,9 +3,8 @@ package mariospizza;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author FrederikDahl
+/*
+ * @author Josef, Thor, Hallur og Frederik 
  */
 public class BetalingTest {
     
@@ -22,9 +21,7 @@ public class BetalingTest {
         String forventet2 = "kort"; 
         
         assertEquals(resultat1,forventet1); 
-        assertEquals(resultat2,forventet2); 
-        
-        
+        assertEquals(resultat2,forventet2);   
     }
 
 }

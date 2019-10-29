@@ -2,15 +2,17 @@
 
 package mariospizza;
 
+/**
+ * @author Josef, Thor, Hallur og Frederik 
+ */
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-/**
- *
- * @author FrederikDahl
- */
+
+
 public class Betaling {
     private Order order; 
     private String betalingsform; 

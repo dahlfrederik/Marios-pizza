@@ -1,5 +1,9 @@
 package mariospizza;
 
+/**
+ * @author Josef, Thor, Hallur og Frederik 
+ */
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;

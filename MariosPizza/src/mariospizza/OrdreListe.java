@@ -1,11 +1,12 @@
 package mariospizza;
 
+/**
+ * @author Josef, Thor, Hallur og Frederik 
+ */
+
 import java.util.ArrayList;
 
-/**
- *
- * @author FrederikDahl
- */
+
 public class OrdreListe {
 
     private ArrayList<Order> ordreliste = new ArrayList<Order>();
@@ -39,6 +40,7 @@ public class OrdreListe {
                     mindste = j;
                 }
             }
+            //En hjælpemetode kunne have gjort det mere letlæseligt. 
             Order temp = ordreliste.get(mindste);
             Order hentesFørst = ordreliste.get(i);
             ordreliste.set(mindste, hentesFørst);
@@ -48,27 +50,29 @@ public class OrdreListe {
     
     //Test for hvad hvis der er en af hver
     public Pizza findMestPopulærIAlleOrdre() {
-        ArrayList<Pizza> mestPopulærePizzaer = new ArrayList<Pizza>();
-        Pizza mestPopulær = null, mestPopulærPizza = null;
-        int maxCount = 0, count = 0;
+        ArrayList<Pizza> mestPopulærePizzaListe = new ArrayList<Pizza>();
+        Pizza mestPopulærIOrdre = null, mestPopulærPizzaIAlt = null;
+        int maxTæller = 0, tæller = 0;
         for (Order order : ordreliste) {
-            mestPopulær = order.findMestPopulær();
-            mestPopulærePizzaer.add(mestPopulær);
-            int n = mestPopulærePizzaer.size();
+            mestPopulærIOrdre = order.findMestPopulær();
+            mestPopulærePizzaListe.add(mestPopulærIOrdre);
+            int n = mestPopulærePizzaListe.size();
             for (int i = 0; i < n-1; i++) {
-                count = 1;
-                for (int j = i++; i < n; i++) {
-                    if (mestPopulærePizzaer.get(i).getPizzaNavn().equals(mestPopulærePizzaer.get(j).getPizzaNavn())) {
-                        count++;
+                tæller = 1;
+                for (int j = i++; i < n-1; j++) {
+                    if (mestPopulærePizzaListe.get(i).getPizzaNavn().equals(mestPopulærePizzaListe.get(j).getPizzaNavn())) {
+                        tæller++;
                     }
                 }
-                if (count > maxCount) {
-                    maxCount = count;
-                    mestPopulærPizza = mestPopulærePizzaer.get(i);
+                //Tager pg sammenligner tæller og maxtæller. Hvis tæller er større end maxtæller er størst byttes der 
+                //rundt på tæller og maxtæller og finder pizzaen i plads i. 
+                if (tæller > maxTæller) {
+                    maxTæller = tæller;
+                    mestPopulærPizzaIAlt = mestPopulærePizzaListe.get(i);
                 }
             }
         }
-        return mestPopulærPizza;
+        return mestPopulærPizzaIAlt;
     }
 
     @Override

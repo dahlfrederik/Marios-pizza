@@ -1,5 +1,9 @@
 package mariospizza;
 
+/**
+ * @author Josef, Thor, Hallur og Frederik 
+ */
+
 public class MariosPizza {
 
     public static void main(String[] args) {
@@ -96,11 +100,9 @@ public class MariosPizza {
 
         Betaling betaling = new Betaling(order1, false);
         
-        Pizza pop = order1.findMestPopulær();
-        System.out.println(pop);
 
-//        Pizza populær = mariosOverblik.findMestPopulærIAlleOrdre();
-//        System.out.println(populær);
+       Pizza populær = mariosOverblik.findMestPopulærIAlleOrdre();
+       System.out.println(populær);
     }
 
 }

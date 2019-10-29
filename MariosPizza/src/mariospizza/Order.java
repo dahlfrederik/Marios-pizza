@@ -1,16 +1,16 @@
 package mariospizza;
 
+/**
+ * @author Frederik, Hallur, Josef og Thor
+ */
+
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-/**
- * TIL MARIO
- *
- * @author Frederik, Hallur, Josef og Thor
- */
+
 public class Order {
 
     private Kunde kunde;

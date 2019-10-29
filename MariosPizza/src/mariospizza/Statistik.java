@@ -4,7 +4,7 @@ package mariospizza;
 
 /**
  *
- * @author FrederikDahl
+ * @author Josef, Thor, Hallur og Frederik 
  */
 public class Statistik {
     //indeholde liste af ordrer og hvad der er mest populært 
