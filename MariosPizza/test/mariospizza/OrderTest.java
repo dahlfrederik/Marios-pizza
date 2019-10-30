@@ -56,9 +56,11 @@ public class OrderTest {
         order1.addPizzaTilOrdrer(pizza2); 
         //act 
         double resultat = order1.getTotalPris();
-        int forventetTotal = 90; 
+        double forventetTotal = 90; 
+        double forkertresultat = 2; 
         //assert
         assertEquals(resultat, forventetTotal,0.01); 
+        assertNotEquals(resultat,forkertresultat,0.01);
     }
     
     @Test

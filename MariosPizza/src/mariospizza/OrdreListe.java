@@ -40,7 +40,7 @@ public class OrdreListe {
                     mindste = j;
                 }
             }
-            //En hjælpemetode kunne have gjort det mere letlæseligt. 
+            //En swop-hjælpemetode kunne have gjort dette mere letlæseligt. 
             Order temp = ordreliste.get(mindste);
             Order hentesFørst = ordreliste.get(i);
             ordreliste.set(mindste, hentesFørst);
@@ -48,7 +48,6 @@ public class OrdreListe {
         }
     }
     
-    //Test for hvad hvis der er en af hver
     public Pizza findMestPopulærIAlleOrdre() {
         ArrayList<Pizza> mestPopulærePizzaListe = new ArrayList<Pizza>();
         Pizza mestPopulærIOrdre = null, mestPopulærPizzaIAlt = null;
@@ -64,8 +63,8 @@ public class OrdreListe {
                         tæller++;
                     }
                 }
-                //Tager pg sammenligner tæller og maxtæller. Hvis tæller er større end maxtæller er størst byttes der 
-                //rundt på tæller og maxtæller og finder pizzaen i plads i. 
+                //Tager og sammenligner tæller og maxtæller. Hvis tæller er større end maxtæller er størst byttes der 
+                //rundt på tæller og maxtæller og finder pizzaen i pladsen I i arraylisten. 
                 if (tæller > maxTæller) {
                     maxTæller = tæller;
                     mestPopulærPizzaIAlt = mestPopulærePizzaListe.get(i);
